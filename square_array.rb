@@ -1,3 +1,24 @@
+def square_array(numbers)
+
+  numbers.each do |number|
+
+  end
+end 
+
 def square_array(array)
-  # your code here
-end
+
+  new_array = []
+ 
+  array.each do |integer|
+   new_array << integer ** 2
+  end
+  return new_array
+ end
+
+     
+
+
+
+
+
+ 
